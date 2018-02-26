@@ -1,0 +1,44 @@
+form {
+    width: 15em;
+    margin: 0 1em;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    margin: 0.2em 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea {
+   height: 10em;
+}
+select {
+    width: 50%;
+}
+
+input[type=file]{
+    margin: 0.4em 0;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.5em;
+}
+
+.cancel{
+    background-color: orangered;
+}
+
+.submit {
+    background-color: #4CAF50;
+}

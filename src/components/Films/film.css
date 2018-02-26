@@ -1,0 +1,32 @@
+.film-card {
+    width: 25em;
+    margin: 0.5em 1em;
+    display: flex;
+}
+
+.selected {
+    border: 2px solid green;
+    padding: 2px;
+}
+
+.unselected {
+    border: 2px solid transparent;
+    padding: 2px;
+}
+
+.img {
+    width: 10em;
+    margin-right: 0.5em;
+}
+
+.img img {
+    width: 10em;
+    height: 6em;
+}
+
+.film-card span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 12em;
+    display: inline-block;
+}
